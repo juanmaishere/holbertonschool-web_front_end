@@ -24,9 +24,6 @@ a {
 }
 .section-tagline {
     color: var(--color-primary);
-    font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
-    transform: var(--section-tagline-transform);
 }
 :root {
     --color-primary: #d73953;
@@ -56,4 +53,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .section-header-align {
     text-align: center;
+}
+.section-tagline {
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+    transform: var(--section-tagline-transform);
 }
