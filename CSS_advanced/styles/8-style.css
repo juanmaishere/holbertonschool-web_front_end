@@ -10,7 +10,8 @@ body {
     line-height: var(--line-height-base);
 }
 a {
-    color: var(--text-color)
+    color: var(--text-color);
+    text-decoration: none;
 }
 .visually-hidden {
     display: none;
