@@ -396,6 +396,11 @@ a:active {
     font-weight: var(--font-weight-bold);
     text-transform: var(--section-tagline-transform);
 }
+.containter {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
