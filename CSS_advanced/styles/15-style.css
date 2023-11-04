@@ -347,8 +347,10 @@
   [hidden] {
     display: none;
   }
-html {
+  * {
     box-sizing: border-box;
+  }
+html {
     scroll-behavior: smooth;
     font-size: 62.5%;
   }
