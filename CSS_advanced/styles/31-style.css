@@ -347,8 +347,8 @@
     display: none;
   }
 
-  * {
-    box-sizing: content-box;
+  *::after, *::before {
+    box-sizing: border-box;
   }
 html {
     scroll-behavior: smooth;
